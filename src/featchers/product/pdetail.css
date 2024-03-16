@@ -1,0 +1,51 @@
+HTML CSSResult Skip Results Iframe
+EDIT ON
+.media {
+  background: #fff;
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  margin-bottom: 2.5rem;
+}
+.media h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.media img {
+  float: right;
+  width: 20vw;
+  height: 20vw;
+  margin-right: 16px;
+  /* border: 1px solid lightgrey; */
+}
+.media:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.media[dir=rtl] img {
+  float: left;
+  margin-right: 0;
+  margin-left: 16px;
+}
+
+.link {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #1d7bb3;
+}
+
+/* Non Demo Related Styling */
+body {
+  background: #f6f6f6;
+  font-family: "Rubik", sans-serif;
+  line-height: 1.35;
+}
+
+.wrapper {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
